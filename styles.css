@@ -114,6 +114,17 @@ li {
     font-size: 0.9em;
 }
 
+.research-link {
+    color: var(--text-color);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.research-link:hover {
+    color: var(--accent-color);
+    text-decoration: underline;
+}
+
 /* 添加响应式设计 */
 @media (max-width: 768px) {
     .container {

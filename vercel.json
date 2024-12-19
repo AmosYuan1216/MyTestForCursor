@@ -12,4 +12,11 @@
       "dest": "/$1"
     }
   ]
+  "redirects": [
+    {
+      "source": "/",
+      "destination": "/publications.html",
+      "permanent": true
+    }
+  ]
 }

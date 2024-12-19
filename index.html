@@ -1,22 +1,36 @@
 <!DOCTYPE html>
-<html>
+<html lang="zh">
 <head>
-    <title>Your Name</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amos的个人主页</title>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,700;1,400&family=Playfair+Display:wght@400;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <h1>Your Name</h1>
-        <nav>
-            <a href="#home">Home</a>
-            <a href="#about">About</a>
-            <a href="#contact">Contact</a>
-        </nav>
-    </header>
-    <main>
-        <section id="home">
-            <h2>Welcome to my website!</h2>
+    <div class="container">
+        <h1>欢迎来到我的主页</h1>
+        <p>我是Amos，一个来自清华五道口金融学院的统计学研究中心小黑子</p>
+        
+        <section class="research">
+            <h2>研究方向</h2>
+            <ul>
+                <li><a href="publications.html" class="research-link">Measuremet Error</a></li>
+                <li>Quantum Calculation</li>
+                <li><a href="publications.html" class="research-link">Bootstrap and Empirical process</a></li>
+            </ul>
         </section>
-    </main>
+
+        <section class="contact">
+            <h2>联系方式</h2>
+            <ul>
+                <li>邮箱：You can guess</li>
+            </ul>
+        </section>
+
+        <div class="page-navigation">
+            <a href="publications.html" class="nav-button">查看学术成果 →</a>
+        </div>
+    </div>
 </body>
 </html>

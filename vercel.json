@@ -1,9 +1,5 @@
 {
-  "redirects": [
-    {
-      "source": "/",
-      "destination": "/publications.html",
-      "permanent": true
-    }
-  ]
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "redirects": []
 }
